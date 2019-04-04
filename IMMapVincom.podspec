@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'IMMapVincom'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = 'Indoor map framework'
     s.homepage         = 'https://github.com/vit1812/IMMapVincom'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.dependency 'MBProgressHUD'
     s.dependency 'TMCache'
     s.dependency 'Toast'
-    s.dependency 'SwiftyJSON', '~> 4.2'
+    s.dependency 'SwiftyJSON', '4.2'
     s.dependency 'Kingfisher'
     s.dependency 'RxCocoa'
     s.dependency 'RxSwift'
